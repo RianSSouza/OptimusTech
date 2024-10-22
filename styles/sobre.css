@@ -1,0 +1,31 @@
+.sobre{
+   display: flex;
+   justify-content: center;
+   padding: 96px 0;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.sobre__titulo, .sobre__sub-titulo {
+    margin: 0.6em 0; 
+}
+
+.sobre__titulo{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--vermelho);
+}
+
+.sobre__sub-titulo{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.sobre__texto{
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    font-size: 20px;
+}

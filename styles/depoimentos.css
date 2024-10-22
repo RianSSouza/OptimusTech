@@ -1,0 +1,48 @@
+.depoimentos{
+   padding: 96px 32px;
+}
+
+.depoimentos__container{
+    background-color: var(--vermelho-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    border-radius: 16px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 1.5em;
+
+}
+.conteudo__titulo{
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.conteudo__texto{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.atribuicao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.atribuicao__titulo{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.atribuicao__texto{
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
